@@ -1,5 +1,5 @@
 //list structure contants
-const pokeList=[
+export const pokeList=[
   {
     id:0,
     name:Bulbasaur,
@@ -8,4 +8,3 @@ const pokeList=[
     Image:,
     description:`á uma semente de planta nas costas desde o dia em que este Pokémon nasce. A semente cresce lentamente.`
   },];
-

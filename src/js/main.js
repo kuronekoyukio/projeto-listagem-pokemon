@@ -1,3 +1,5 @@
+import { pokeList } from "./poke_list.js";
+
 const BotaoAlterarTema = document.getElementById("botao-alterar-tema");
 
 const body = document.querySelector("body");
@@ -15,3 +17,5 @@ BotaoAlterarTema.addEventListener("click", () => {
     imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/moon.png");
   }
 });
+
+
