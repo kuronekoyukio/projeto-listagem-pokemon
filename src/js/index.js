@@ -1,4 +1,4 @@
-import { pokeList } from "./poke_list.js";
+//import { pokeList } from "./poke_list.js";
 
 const BotaoAlterarTema = document.getElementById("botao-alterar-tema");
 
