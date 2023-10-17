@@ -31,7 +31,7 @@ header #botao-alterar-tema {
 
 header .logo:hover,
 header .imagem-botao:hover,
-main .cartao-pokemon:hover {
+main .pokemon-card:hover {
     transform: scale(1.05);
     cursor: pointer;
     transition: 0.2s ease-in-out
@@ -41,14 +41,14 @@ main {
     padding: 25px;
 }
 
-main .listagem-pokemon {
+main .poke-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
 }
 
-main .cartao-pokemon {
+main .pokemon-card {
     background-color: #d8e3ec;
     width: 200px;
     padding: 15px;
@@ -60,66 +60,66 @@ main .cartao-pokemon {
     gap: 10px;
 }
 
-main .cartao-pokemon:hover {
+main .pokemon-card:hover {
     background-color: #96d9d6;
 
 }
 
-.modo-escuro .cartao-pokemon {
+.modo-escuro .pokemon-card {
     background-color: #a8a8a8;
 }
 
-main .cartao-pokemon .informacoes {
+main .pokemon-card .informations {
     display: flex;
     justify-content: space-between;
     border: 1px solid #333333;
     border-radius: 10px;
 }
 
-main .cartao-pokemon .informacoes span {
+main .pokemon-card .informations span {
     padding: 5px;
     text-transform: uppercase;
     font-size: 17px;
 }
 
-main .cartao-pokemon .gif {
+main .pokemon-card .gif {
     width: 90px;
     height: 90px;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
 }
 
-main .cartao-pokemon .tipos {
+main .pokemon-card .types {
     display: flex;
     gap: 15px;
 }
 
-main .cartao-pokemon .tipo {
+main .pokemon-card .type {
     padding: 8px;
     border-radius: 10px;
 }
 
-.grama {
+.plant {
     background-color: greenyellow;
 }
 
-.veneno {
+.venom {
     background-color: darkorchid;
 }
 
-.fogo {
+.fire {
     background-color: orangered;
 }
 
-.voador {
+.flyer {
     background-color: rgb(105, 104, 103);
 }
 
-.agua {
+.water {
     background-color: cyan;
 }
 
-.inseto {
+.insect {
     background-color: rgb(136, 190, 81);
 }
 

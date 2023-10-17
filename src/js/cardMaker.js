@@ -1,6 +1,5 @@
 //code importation
-import { pokeList } from "./pokelist"
-
+import { pokeList } from "./pokedex.js"
 
 export function drawCards() {
   for (const pokeIndex of pokeList) {
