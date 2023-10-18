@@ -1,4 +1,4 @@
-
+// theme change
 export function alterTheme() {
   const BotaoAlterarTema = document.getElementById("botao-alterar-tema");
 
