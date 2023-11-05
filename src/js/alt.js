@@ -16,9 +16,4 @@ export function alterTheme() {
   } else {
     imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/moon.png");
   }
-})}
-
-// github page
-export function gitpage() {
-  const goGitPage = document.getElementById("")
-}
+})};
