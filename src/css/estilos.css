@@ -83,8 +83,7 @@ main .pokemon-card .informations span {
 }
 
 main .pokemon-card .gif {
-    height: 8px;
-    width: 12px;
+    height: 8em;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
 }
@@ -135,7 +134,7 @@ main .pokemon-card .type {
     display: none;
 }
 
-main .descricao {
+main .descrition {
     max-height: 80px;
     overflow-y: scroll;
     font-size: 14px;
