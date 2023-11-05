@@ -84,7 +84,7 @@ main .pokemon-card .informations span {
 
 main .pokemon-card .gif {
     height: 8px;
-    width: 16px;
+    width: 12px;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
 }
